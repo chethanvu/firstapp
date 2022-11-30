@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: royalblue;
+  display: flex;
+  height: 56px;
+  width: auto;
+}
+.first {
+  width: 123px;
+}
+.product {
+  padding: 7px;
+}
+.flip {
+  display: flex;
+  width: 156px;
+}
+/* .logo {
+  display: flex;
+  justify-content: left;
+} */
+.searchspace {
+  display: flex;
+  /* width: 304px; */
+  display: flex;
+}
+.searchspace input {
+  height: 40px;
+  margin: 8px 0;
+  width: 304px;
+}
+.search {
+  /* className="search" */
+  display: flex;
+}
+.search img {
+  padding-top: 8px;
+  /* padding:10px 0px ; */
+}
+.log {
+  padding: 8px;
+  padding-left: 60px;
+}
+
+.log button {
+  width: 100px;
+  height: 40px;
+}
+.become {
+  display: flex;
+  padding: 10px;
+  color: white;
+  padding-left: 50px;
+}
+.become select {
+  background-color: royalblue;
+}
+.cart {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+.brands {
+  padding: 15px;
+  color: white;
+  padding-left: 0px;
+}
+
+/* Home css */
+.home img {
+}
+.home {
+  width: 800px;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-items: center;
+  flex-wrap: wrap;
+  border: black 2px;
+}
+.Chaild {
+  width: 250px;
+  height: 480px;
+  margin: 20px;
+  overflow: hidden;
+}
+.Chaild img {
+  height: 350px;
+}
+.title {
+  text-align: center;
+  background-color: red;
+}
+
+.loginpage{
+  background-color:rgb(96, 173, 218);
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.forminside{
+  padding: 20px;
+  margin: auto;
+  margin-right: 50px;
+}
+.orminsider{
+  padding: 20px;
+  margin: auto;
+  margin-right: 50px;
+}
+.forminside input{
+  width: 310px;
+  height: 40px;
+  font-size: 20px;
+}
+.forminside label{
+  font-size: 20px;
+}
+.forminside h1{
+  color: blue;
+  padding-left: 70px;
+  text-shadow: 2px 2px 4px red;
+}
+.forminside h2{
+  color: blue;
+  padding-left: 130px;
+}
+#btn{
+  background-color:green;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 100px;
+  
+}
+#btn1{
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+#btn3{
+  background-color: red;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+}
+#btn4{
+  background-color:rgb(150, 150, 19);
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.error{
+  color: red;
+  background-color: beige;
+}
